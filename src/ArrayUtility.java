@@ -18,6 +18,15 @@ public class ArrayUtility {
         }
         return nums;
     }
+    public static void displayArray(int []newArray)
+    {
+        int i=0;
+        while(i<newArray.length)
+        {
+            System.out.print(newArray[i]+" ,");
+            i++;
+        }
+    }
 
 
 }
